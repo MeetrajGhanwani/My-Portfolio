@@ -1,0 +1,136 @@
+@media screen and (max-width: 999px) {
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        margin: 4px auto;
+    }
+    nav ul li a{
+        font-size: 14px;
+    }   
+    main hr{
+        margin: 20px 25px;
+    }
+    .container1{
+        margin: -47px -2px;
+    }
+    .box1{
+        width: 60px;
+        margin: 10px 32px;
+    }
+    .secondSection h1{
+        padding: 26px 0;
+    }
+    .container2{
+        margin: -83px -2px;
+    }
+    .thirdSection h1{
+        padding: 68px 0px;
+    }
+    .fourthSection h1{
+        padding: 100px 0;
+    }
+    .container3{
+        margin: -110px -2px;
+    }
+    .copy{
+        margin: 91px 8px;
+    } 
+}
+
+@media screen and (max-width: 1310px) {
+    .firstSection{
+        flex-direction: column-reverse;
+    }
+    .leftSection{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+    }
+    .rightSection{
+        width: 510px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .firstSection > div{
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .leftSection{
+        font-size: 25px;
+    }
+    .rightSection{
+        width: 375px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .btn{
+        position: relative;
+        bottom: 25px;
+    }
+    .secondSection{
+        position: relative;
+        bottom: 57px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .box1{
+        width: 70px;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .leftSection{
+        font-size: 20px;
+    }
+    .rightSection{
+        width: 335px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .btn{
+        position: relative;
+        bottom: 25px;
+    }
+    .secondSection{
+        position: relative;
+        bottom: 57px;
+    }
+    .box1{
+    width: 50px;
+    margin: 20px;
+    }
+}
+
+@media screen and (max-width: 335px) { 
+    nav ul{
+        margin: -4px auto;
+    }
+    nav ul li a{
+        font-size: 12px;
+    }
+    .rightSection img{
+        width: 227px;
+    }
+    .firstSection > div {
+        width: 300px;
+    }
+    .leftSection{
+        font-size: 20px;
+    }
+    footer .copy{
+        font-size: 12px;
+    }
+    .box1 {
+        width: 50px;
+        margin: 19px;
+    }
+}

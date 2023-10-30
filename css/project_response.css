@@ -1,0 +1,11 @@
+@media screen and (max-width: 999px) {
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        margin: 4px auto;
+    }
+    nav ul li a{
+        font-size: 14px;
+    } 
+}
